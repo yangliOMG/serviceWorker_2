@@ -3,12 +3,14 @@ sw再探究，解决上次遗留的问题
 
 引子：
 
-  昨天在csdn上看到一则新闻，谈到支付宝小程序不仅可以添加到安卓手机桌面；而且，也能被添加到 iOS 系统的手机桌面（https://mp.weixin.qq.com/s/SyFpbFg0rB3G8Cu52x6CFA）。再结合前段时间开始流行的微信小程序，或许像小程序这种轻量级的应用是近段时间的发展趋势。
+  昨天在csdn上看到一则新闻，谈到支付宝小程序不仅可以添加到安卓手机桌面；而且，也能被添加到 iOS 系统的手机桌面（https://mp.weixin.qq.com/s/SyFpbFg0rB3G8Cu52x6CFA ）。再结合前段时间开始流行的微信小程序，或许像小程序这种轻量级的应用是近段时间的发展趋势。
   
+  
 技术实现：
 
-  这种轻型应用其实现有两种方式：PWA(Progressive Web App渐进式网页应用程序)（代表：https://m.alibaba.com在chrome中添加到桌面）  与  URL Scheme（支付宝小程序 添加到桌面）
+  这种轻型应用其实现有两种方式：PWA(Progressive Web App渐进式网页应用程序)（代表：https://m.alibaba.com 在chrome中添加到桌面）  与  URL Scheme（支付宝小程序 添加到桌面）
   
+  
 PWA：
 
   这里谈谈PWA。PWA的三大基本能力：离线缓存、类app交互、消息推送，究其原因是其三个关键技术：Service Worker，Manifest（应用清单） ，Push Notification（推送通知）。
@@ -17,6 +19,7 @@ PWA：
   https://www.zhihu.com/question/46690207
   https://blog.csdn.net/qq_19238139/article/details/77531191
   
+  
 心得：
 
   这里提一下PWA关键技术之一SW实现中细节的东西：
