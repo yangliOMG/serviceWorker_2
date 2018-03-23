@@ -15,17 +15,31 @@ PWA：
 
   这里谈谈PWA。PWA的三大基本能力：离线缓存、类app交互、消息推送，究其原因是其三个关键技术：Service Worker，Manifest（应用清单） ，Push Notification（推送通知）。
   
-  关于PWA具体理解以及技术前景（ios不支持；国内网速快，pwa体量小的优势不明显；PWA的消息推送走的是 GCM（ FCM ）通道，而国内 Google 是无法访问），以下两文说的很详尽：
+ 	SW：作用于 浏览器于服务器之间，相当于一个代理服务器
+  事件机制：
+![image]http://img.blog.csdn.net/20170824160840779
+  生命周期：
+![image]http://img.blog.csdn.net/20170824160846422
+
+  Manifest：Web App Manifest 是一个 W3C 规范，它定义了一个基于 JSON 的 List 。
+
+  Push Notification：Push 和 Notification 是两个不同的功能。
+
+
+  技术前景：ios不支持；国内网速快，pwa体量小的优势不明显；PWA的消息推送走的是 GCM（ FCM ）通道，而国内 Google 是无法访问
+  
+  以下两文说的很详尽：
   https://www.zhihu.com/question/46690207
   https://blog.csdn.net/qq_19238139/article/details/77531191
+
   
   
 心得：
 
   这里提一下PWA关键技术之一SW实现中细节的东西：
   
-  1.只能在https的环境下才能使用sw。所以不能通过本地测试，可借助内网穿透工具（ngrok、natapp）从外网测试。
-  
+  1.只能在https的环境下才能使用sw。所以不能通过本地测试，可借助内网穿透工具（ngrok、natapp）从外网测试。（内网穿透理解：https://blog.csdn.net/zhangguo5/article/details/77848658?utm_source=5ibc.net&utm_medium=referral）
+  
   2.如果使用localhost测试，在offline模式下，会导致sw.js获取不到。"Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
   
   
