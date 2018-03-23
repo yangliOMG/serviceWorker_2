@@ -28,4 +28,5 @@ PWA：
   
   2.如果使用localhost测试，在offline模式下，会导致sw.js获取不到。"Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
   
+  
   3.上次留下的问题：1.可根据情况选择要缓存的文件。2. 使用skipWaiting()方法，可以实现缓存仓库key修改后更新缓存。或勾选Application-ServiceWorker中选项Update on reload，实现刷新页面就更新，不论缓存仓库key值有没有变化。(https://zhuanlan.zhihu.com/p/25399566?refer=dreawer)
