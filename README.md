@@ -15,7 +15,7 @@ sw再探究，解决上次遗留的问题
 
   这里谈谈PWA。PWA的三大基本能力：离线缓存、类app交互、消息推送，究其原因是其三个关键技术：Service Worker，Manifest（应用清单） ，Push Notification（推送通知）。
   
-  ## SW：作用于 浏览器于服务器之间，相当于一个代理服务器
+  __SW__：作用于 浏览器于服务器之间，相当于一个代理服务器
   
   事件机制：
 ![image](http://img.blog.csdn.net/20170824160840779)
@@ -23,12 +23,12 @@ sw再探究，解决上次遗留的问题
   生命周期：
 ![image](http://img.blog.csdn.net/20170824160846422)
 
-  ## Manifest：Web App Manifest 是一个 W3C 规范，它定义了一个基于 JSON 的 List 。
+  __Manifest__：Web App Manifest 是一个 W3C 规范，它定义了一个基于 JSON 的 List 。
 
-  ## Push Notification：Push 和 Notification 是两个不同的功能。
+  __Push Notification__：Push 和 Notification 是两个不同的功能。
 
 
-  ## 技术前景：ios不支持；国内网速快，pwa体量小的优势不明显；PWA的消息推送走的是 GCM（ FCM ）通道，而国内 Google 是无法访问
+  __技术前景__：ios不支持；国内网速快，pwa体量小的优势不明显；PWA的消息推送走的是 GCM（ FCM ）通道，而国内 Google 是无法访问
   
   以下两文说的很详尽：
   https://www.zhihu.com/question/46690207
