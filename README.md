@@ -18,12 +18,13 @@ sw再探究，解决上次遗留的问题
   __SW__：作用于 浏览器于服务器之间，相当于一个代理服务器
   
   事件机制：
-![image](http://img.blog.csdn.net/20170824160840779)
+![image](https://image-static.segmentfault.com/120/353/1203530726-5ae2f996ef242_articlex)
 
   生命周期：
-![image](http://img.blog.csdn.net/20170824160846422)
+![image](https://image-static.segmentfault.com/418/819/418819374-5ae2f9970144a_articlex)
 
-  __Manifest__：Web App Manifest 是一个 W3C 规范，它定义了一个基于 JSON 的 List 。
+  __Manifest__：Web App Manifest 是一个 W3C 规范，它定义了一个基于 JSON 的 List 。Manifest 在 PWA 中的作用有：1.能够将你浏览的网页添加到你的手机屏幕上。2.在 Android 上能够全屏启动，不显示地址栏 
+  
 
   __Push Notification__：Push 和 Notification 是两个不同的功能。
 
