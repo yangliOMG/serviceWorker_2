@@ -11,7 +11,7 @@ sw再探究，解决上次遗留的问题
   这种轻型应用其实现有两种方式：PWA(Progressive Web App渐进式网页应用程序)（代表：https://m.alibaba.com 在chrome中添加到桌面）  与  URL Scheme（支付宝小程序 添加到桌面）
   
   
-# PWA：
+# PWA（Progressive Web App 渐进式的网页应用程序）：
 
   这里谈谈PWA。PWA的三大基本能力：离线缓存、类app交互、消息推送，究其原因是其三个关键技术：Service Worker，Manifest（应用清单） ，Push Notification（推送通知）。
   
