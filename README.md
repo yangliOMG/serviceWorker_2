@@ -26,7 +26,7 @@ sw再探究，解决上次遗留的问题
   __Manifest__：Web App Manifest 是一个 W3C 规范，它定义了一个基于 JSON 的 List 。Manifest 在 PWA 中的作用有：1.能够将你浏览的网页添加到你的手机屏幕上。2.在 Android 上能够全屏启动，不显示地址栏 
   
 
-  __Push Notification__：Push 和 Notification 是两个不同的功能。
+  __Push Notification（推送通知）__：Push 和 Notification 是两个不同的功能。Push：服务器端将更新的信息传递给 SW ，Notification： SW 将更新的信息推送给用户。
 
 
   __技术前景__：ios不支持；国内网速快，pwa体量小的优势不明显；PWA的消息推送走的是 GCM（ FCM ）通道，而国内 Google 是无法访问
